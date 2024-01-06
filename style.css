@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad&family=Macondo&display=swap');
+
+
+/* font-family: 'Afacad', sans-serif;
+font-family: 'Macondo', cursive;*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #000;
+    background-image: url(Image/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(7px);
+    font-family: 'Afacad', sans-serif;
+    cursor: default;
+}
+
+header {
+    color: #fff;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#header-content {
+    margin: 10px;
+    padding: 20px;
+}
+
+#name {
+    color: #34A853;
+    font-size: 50px;
+    text-shadow: 1px 1px 10px;
+}
+
+#slogo {
+    font-family: 'Macondo', cursive;
+    text-shadow: 1px 1px 10px;
+}
+
+main {
+    color: #fff;
+}
+
+#main-head {
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 10px;
+}
+
+#container1 {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+}
+
+#about,
+#objective,
+#skills,
+#certifications,
+#education,
+#contact,
+#github,
+#interest,
+#conclusion {
+    font-size: 18px;
+    color: #000;
+    background-color: #ffffff80;
+    margin: 50px;
+    padding: 20px;
+    box-shadow: 5px 5px 10px #000;
+    transition: ease 1s, transform 1s;
+}
+
+#about,
+#objective {
+    width: 50%;
+}
+
+@media (max-width:800px) {
+    #container1 {
+        flex-direction: column;
+    }
+
+    #container2 {
+        flex-direction: column;
+    }
+
+    #about,
+    #objective {
+        width: auto;
+    }
+
+    #my-skills ul {
+        flex-direction: column;
+    }
+}
+
+
+#about:hover,
+#objective:hover,
+#my-skills ul :hover,
+#certifications:hover,
+#education:hover,
+#github:hover,
+#contact:hover,
+#interest:hover,
+#conclusion:hover {
+    transform: scale(1.05);
+}
+
+#objective {
+    background-color: #3bcf9e80;
+}
+
+#objective ul {
+    list-style: url(Image/bullet.svg);
+    list-style-position: inside;
+    padding-left: 30px;
+}
+
+#my-skills ul {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#my-skills li {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#icons {
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+#language,
+#web-development,
+#version-control,
+#tools {
+    list-style: none;
+    padding: 20px;
+    transition: ease 1s, transform 1s;
+    box-shadow: 2px 2px 10px;
+}
+
+#language {
+    background-color: #f654149d;
+}
+
+#web-development {
+    background-color: #7dbb008f;
+}
+
+#version-control {
+    background-color: #00a1f19d;
+}
+
+#tools {
+    background-color: #ffbb00ad;
+}
+
+#certifications {
+    background-color: #e0876ac5;
+}
+
+#certifications li {
+    list-style: square;
+    margin-left: 30px;
+    padding: 10px;
+}
+
+#education {
+    background-color: #c94c4cbe;
+}
+
+#education ul {
+    font-size: 19px;
+    list-style: none;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+#edu-center li {
+    font-size: 18px;
+    margin-left: 50px;
+    padding: 10px;
+    list-style: url(Image/bullet.svg);
+}
+
+#container2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#contact {
+    background-color: #b8a9c9ab;
+}
+
+#github {
+    background-color: #d4ab6eb6;
+}
+
+#interest {
+    background-color: #587e76b6;
+}
+
+#contact a,
+#github a,
+#interest a {
+    margin-left: 10px;
+    color: #c1502e;
+    text-shadow: 1px 1px 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#contact,
+#github {
+    width: 50%;
+}
+
+#contact ul {
+    list-style: none;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact li {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+}
+
+#interest ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+#conclusion {
+    background-color: #55acee9c;
+}
