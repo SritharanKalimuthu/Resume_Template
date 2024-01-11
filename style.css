@@ -10,10 +10,9 @@ font-family: 'Macondo', cursive;*/
 }
 
 body {
-    margin: 0;
     background-image: url(Image/image.png);
-    background-size : cover;
-    background-repeat : no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
     backdrop-filter: blur(7px);
     font-family: 'Afacad', sans-serif;
     cursor: default;
