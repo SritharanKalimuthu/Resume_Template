@@ -12,8 +12,7 @@ font-family: 'Macondo', cursive;*/
 body {
     color: #000;
     background-image: url(Image/image.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-size : cover;
     backdrop-filter: blur(7px);
     font-family: 'Afacad', sans-serif;
     cursor: default;
