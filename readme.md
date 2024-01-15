@@ -10,5 +10,6 @@
 <br>
 <h1 align='center'>Resume</h1>
 <div align ='center'>
-<iframe src='https://levyathanz.github.io/CV/' title='Resume Template'></iframe>
+<img src=''/>
+<a href='https://levyathanz.github.io/CV/'>View Here</a>
 </div>
