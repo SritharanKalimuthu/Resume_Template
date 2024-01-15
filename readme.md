@@ -10,6 +10,6 @@
 <br>
 <h1 align='center'>Resume</h1>
 <div align ='center'>
-<img src=''/>
+<img src='https://github.com/Levyathanz/CV/blob/main/Screenshot/Image.png'/>
 <a href='https://levyathanz.github.io/CV/'>View Here</a>
 </div>
